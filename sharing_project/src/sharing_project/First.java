@@ -15,16 +15,20 @@ public class First {
 		percent = input.nextInt();
 		
 		//comparing the percentage to a letter grade
-		if(percent < 60){
+		if(percent < 50){
 			System.out.println("The corresponding letter grade is: F");
-		}else if(percent < 70){
+			System.out.println("rough go");
+		}else if(percent < 65){
 			System.out.println("The corresponding letter grade is: D");
-		}else if(percent < 80){
+		}else if(percent < 70){
 			System.out.println("The corresponding letter grade is: C");
 		}else if(percent < 90){
 			System.out.println("The corresponding letter grade is: B");
 		}else{
 			System.out.println("The corresponding letter grade is: A");
+			System.out.println("yeah");
+			System.out.println("nooononononon");
+			
 		}
 
 	}
