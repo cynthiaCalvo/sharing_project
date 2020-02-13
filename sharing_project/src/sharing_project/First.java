@@ -22,8 +22,10 @@ public class First {
 			System.out.println("The corresponding letter grade is: D");
 		}else if(percent < 70){
 			System.out.println("The corresponding letter grade is: C");
+			//isugrfweroiugbiruhgbgiehbvetbg
 		}else if(percent < 90){
 			System.out.println("The corresponding letter grade is: B");
+			//wiuegfwrfbuwrgfiwehfiwfbriguirger
 		}else{
 			System.out.println("The corresponding letter grade is: A");
 			System.out.println("yeah");
