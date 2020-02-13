@@ -27,6 +27,8 @@ public class First {
 		}else{
 			System.out.println("The corresponding letter grade is: A");
 			System.out.println("yeah");
+			System.out.println("nooononononon");
+			
 		}
 
 	}
