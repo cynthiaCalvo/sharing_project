@@ -1,3 +1,4 @@
+
 /*
  * Cynthia C.
  * 13 February, 2020
@@ -13,6 +14,7 @@ public class First {
 		Scanner input = new Scanner(System.in);
 		System.out.print("Enter the percentage: ");
 		percent = input.nextInt();
+		int a = 0;
 		
 		//comparing the percentage to a letter grade
     
@@ -54,6 +56,7 @@ public class First {
 			System.out.println("The corresponding letter grade is: A");
       System.out.println("yeah");
 			System.out.println("nooononononon");
+
 			if(percent < 93) {
 				System.out.println("The corresponding GPA is: 3.67");
 			}else{
