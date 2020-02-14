@@ -15,10 +15,12 @@ public class First {
 		percent = input.nextInt();
 		
 		//comparing the percentage to a letter grade
+    
 		//Generates a GPA for each percentage grade
 		if(percent < 60){
 			System.out.println("The corresponding letter grade is: F");
 			System.out.println("The corresponding GPA is: 0.00");
+      System.out.println("rough go");
 		}else if(percent < 70){
 			System.out.println("The corresponding letter grade is: D");
 			if(percent < 63) {
@@ -30,6 +32,7 @@ public class First {
 			}
 		}else if(percent < 80){
 			System.out.println("The corresponding letter grade is: C");
+      //isugrfweroiugbiruhgbgiehbvetbg
 			if(percent < 73) {
 				System.out.println("The corresponding GPA is: 1.67");
 			}else if(percent < 77) {
@@ -39,6 +42,7 @@ public class First {
 			}
 		}else if(percent < 90){
 			System.out.println("The corresponding letter grade is: B");
+      //wiuegfwrfbuwrgfiwehfiwfbriguirger
 			if(percent < 83) {
 				System.out.println("The corresponding GPA is: 2.67");
 			}else if(percent < 87) {
@@ -48,12 +52,19 @@ public class First {
 			}
 		}else{
 			System.out.println("The corresponding letter grade is: A");
+      System.out.println("yeah");
+			System.out.println("nooononononon");
 			if(percent < 93) {
 				System.out.println("The corresponding GPA is: 3.67");
 			}else{
 				System.out.println("The corresponding GPA is: 4.00");
-			}
-		}
+      }
+		
+		System.out.println("how do you do fellow gamers?????????????");
+		//hopin this works
+		
+		System.out.println("The gamers are gaming right now and can not answer your question.");
+		//This will definitely work
 
 	}
 
