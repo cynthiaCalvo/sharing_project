@@ -1,7 +1,7 @@
 
 /*
  * Cynthia C.
- * 13 Febuary, 2020
+ * 13 February, 2020
  */
 package sharing_project;
 
@@ -17,36 +17,57 @@ public class First {
 		int a = 0;
 		
 		//comparing the percentage to a letter grade
-		if(percent < 50){
+    
+		//Generates a GPA for each percentage grade
+		if(percent < 60){
 			System.out.println("The corresponding letter grade is: F");
-			System.out.println("rough go");
-		}else if(percent < 65){
-			System.out.println("The corresponding letter grade is: D");
+			System.out.println("The corresponding GPA is: 0.00");
+      System.out.println("rough go");
 		}else if(percent < 70){
+			System.out.println("The corresponding letter grade is: D");
+			if(percent < 63) {
+				System.out.println("The corresponding GPA is: 0.67");
+			}else if(percent < 67) {
+				System.out.println("The corresponding GPA is: 1.00");
+			}else{
+				System.out.println("The corresponding GPA is: 1.33");
+			}
+		}else if(percent < 80){
 			System.out.println("The corresponding letter grade is: C");
-			//isugrfweroiugbiruhgbgiehbvetbg
+      //isugrfweroiugbiruhgbgiehbvetbg
+			if(percent < 73) {
+				System.out.println("The corresponding GPA is: 1.67");
+			}else if(percent < 77) {
+				System.out.println("The corresponding GPA is: 2.00");
+			}else{
+				System.out.println("The corresponding GPA is: 2.33");
+			}
 		}else if(percent < 90){
 			System.out.println("The corresponding letter grade is: B");
-			//wiuegfwrfbuwrgfiwehfiwfbriguirger
+      //wiuegfwrfbuwrgfiwehfiwfbriguirger
+			if(percent < 83) {
+				System.out.println("The corresponding GPA is: 2.67");
+			}else if(percent < 87) {
+				System.out.println("The corresponding GPA is: 3.00");
+			}else{
+				System.out.println("The corresponding GPA is: 3.33");
+			}
 		}else{
 			System.out.println("The corresponding letter grade is: A");
-			System.out.println("yeah");
+      System.out.println("yeah");
 			System.out.println("nooononononon");
-			a = 1;
-			
-		}
+
+			if(percent < 93) {
+				System.out.println("The corresponding GPA is: 3.67");
+			}else{
+				System.out.println("The corresponding GPA is: 4.00");
+      }
 		
 		System.out.println("how do you do fellow gamers?????????????");
 		//hopin this works
 		
 		System.out.println("The gamers are gaming right now and can not answer your question.");
 		//This will definitely work
-		
-		if(a==1) {
-			System.out.println("You are officially the coolest");
-		}
-		
-		
 
 	}
 
