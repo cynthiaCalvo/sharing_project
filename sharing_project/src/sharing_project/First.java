@@ -64,7 +64,7 @@ public class First {
 				System.out.println("The corresponding GPA is: 4.00");
       }
 		
-		System.out.print("hi");
+		System.out.print("hi, thats epic");
 
 		}
 	}
