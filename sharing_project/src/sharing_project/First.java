@@ -5,11 +5,12 @@
 package sharing_project;
 
 import java.util.Scanner;
+import java.util.Random;
 
 public class First {
 
 	public static void main(String[] args) {
-		int percent, letter;
+		int percent, letter, duh;
 		Scanner input = new Scanner(System.in);
 		System.out.print("Enter the percentage: ");
 		percent = input.nextInt();
@@ -32,12 +33,15 @@ public class First {
 			System.out.println("nooononononon");
 			
 		}
-		
-		System.out.println("how do you do fellow gamers?????????????");
-		//hopin this works
-		
-		System.out.println("The gamers are gaming right now and can not answer your question.");
-		//This will definitely work
+		Random r = new Random();
+		//why does this happen
+		duh = r.nextInt(4 - 0 + 1) + 1;
+		if(duh == 0) {
+			System.out.println("gimme the cheese");
+			
+		}else {
+			System.out.print("unlooki");
+		}	
 
 	}
 
