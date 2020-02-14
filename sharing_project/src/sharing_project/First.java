@@ -13,6 +13,7 @@ public class First {
 		Scanner input = new Scanner(System.in);
 		System.out.print("Enter the percentage: ");
 		percent = input.nextInt();
+		int a = 0;
 		
 		//comparing the percentage to a letter grade
 		if(percent < 50){
@@ -30,6 +31,7 @@ public class First {
 			System.out.println("The corresponding letter grade is: A");
 			System.out.println("yeah");
 			System.out.println("nooononononon");
+			a = 1;
 			
 		}
 		
@@ -38,6 +40,12 @@ public class First {
 		
 		System.out.println("The gamers are gaming right now and can not answer your question.");
 		//This will definitely work
+		
+		if(a==1) {
+			System.out.println("You are officially the coolest");
+		}
+		
+		
 
 	}
 
