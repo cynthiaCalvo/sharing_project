@@ -23,6 +23,7 @@ public class First {
 			System.out.println("The corresponding letter grade is: F");
 			System.out.println("The corresponding GPA is: 0.00");
       System.out.println("rough go");
+      System.out.println("Take your L and get out");
 		}else if(percent < 70){
 			System.out.println("The corresponding letter grade is: D");
 			if(percent < 63) {
@@ -63,12 +64,10 @@ public class First {
 				System.out.println("The corresponding GPA is: 4.00");
       }
 		
-		System.out.println("how do you do fellow gamers?????????????");
-		//hopin this works
-		
-		System.out.println("The gamers are gaming right now and can not answer your question.");
-		//This will definitely work
+		System.out.print("hi");
 
+		}
 	}
-
 }
+
+
