@@ -1,3 +1,4 @@
+
 /*
  * Cynthia C.
  * 13 Febuary, 2020
@@ -23,18 +24,27 @@ public class First {
 			System.out.println("The corresponding letter grade is: D");
 		}else if(percent < 70){
 			System.out.println("The corresponding letter grade is: C");
-			
+			//isugrfweroiugbiruhgbgiehbvetbg
 		}else if(percent < 90){
 			System.out.println("The corresponding letter grade is: B");
-			
+			//wiuegfwrfbuwrgfiwehfiwfbriguirger
 		}else{
 			System.out.println("The corresponding letter grade is: A");
 			System.out.println("yeah");
 			System.out.println("nooononononon");
 			
 		}
-		
+		Random r = new Random();
+		//why does this happen
+		duh = r.nextInt(4 - 0 + 1) + 1;
+		if(duh == 0) {
+			System.out.println("gimme the cheese");
+			
+		}else {
+			System.out.print("unlooki");
+		}	
 
 	}
 
 }
+
