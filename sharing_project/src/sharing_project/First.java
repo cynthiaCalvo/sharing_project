@@ -35,6 +35,9 @@ public class First {
 		
 		System.out.println("how do you do fellow gamers?????????????");
 		//hopin this works
+		
+		System.out.println("The gamers are gaming right now and can not answer your question.");
+		//This will definitely work
 
 	}
 
